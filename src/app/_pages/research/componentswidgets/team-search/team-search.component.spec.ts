@@ -10,7 +10,7 @@ describe('TeamSearchComponent', () => {
     await TestBed.configureTestingModule({
       imports: [TeamSearchComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(TeamSearchComponent);
     component = fixture.componentInstance;

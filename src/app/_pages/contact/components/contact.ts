@@ -12,14 +12,14 @@ import { APP_IMAGES } from '@app/_core/constantes/app-images';
   encapsulation: ViewEncapsulation.Emulated,  // Par défaut
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
-      CommonModule,
-      BreadcrumbComponent,
-      FormContactComponent,
-      MapsComponent
-    ],
+    CommonModule,
+    BreadcrumbComponent,
+    FormContactComponent,
+    MapsComponent
+  ],
 })
 export default class Contact {
 
   public readonly images = APP_IMAGES;
-   
+
 }

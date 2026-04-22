@@ -4,8 +4,8 @@ import { APP_IMAGES } from '@app/_core/constantes/app-images';
 
 @Component({
   selector: 'app-policy-section',
-  standalone: true,        
-  imports: [CommonModule],  
+  standalone: true,
+  imports: [CommonModule],
   templateUrl: './policy-section.component.html',
 })
 export class PolicySectionComponent {

@@ -1,10 +1,11 @@
-import { Component, AfterViewInit, Inject, PLATFORM_ID, ChangeDetectionStrategy } from '@angular/core';
+import { Component, AfterViewInit, Inject, PLATFORM_ID, ChangeDetectionStrategy, ViewEncapsulation } from '@angular/core';
 import { RouterLink, RouterModule } from '@angular/router';
 import { isPlatformBrowser, CommonModule } from '@angular/common';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { HeaderBehaviorDirective } from './header-behavior.directive';
 import { APP_IMAGES } from '../../../constantes/app-images';
 import { MENU_ITEMS } from '@app/_core/constantes/app-menus';
+
 
 declare global {
   interface Window {
@@ -15,6 +16,7 @@ declare global {
 @Component({
   selector: 'app-header',
   styleUrls: ['./header.css'],
+  encapsulation: ViewEncapsulation.Emulated,
   templateUrl: './header.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [

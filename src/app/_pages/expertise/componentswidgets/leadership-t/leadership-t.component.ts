@@ -12,7 +12,7 @@ export class LeadershipTComponent {
   public readonly images = APP_IMAGES;
   // ── Cercle tab ──
   public activeSlice: number = 1;
-  public selectSlice(index: number): void { 
-    this.activeSlice = index; 
+  public selectSlice(index: number): void {
+    this.activeSlice = index;
   }
 }

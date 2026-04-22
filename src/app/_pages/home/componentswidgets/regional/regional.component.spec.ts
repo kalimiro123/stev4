@@ -10,7 +10,7 @@ describe('RegionalComponent', () => {
     await TestBed.configureTestingModule({
       imports: [RegionalComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(RegionalComponent);
     component = fixture.componentInstance;

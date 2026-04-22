@@ -10,7 +10,7 @@ describe('OriginmasterComponent', () => {
     await TestBed.configureTestingModule({
       imports: [OriginmasterComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(OriginmasterComponent);
     component = fixture.componentInstance;

@@ -44,7 +44,7 @@ export default class Agenda {
     pullDrag: true,
     dots: true,
     nav: true,
-    center:true,
+    center: true,
     autoplay: true,
     autoplayTimeout: 3000,
     autoplayHoverPause: true,
@@ -66,7 +66,7 @@ export default class Agenda {
 
   activeIndex: number | null = null;
 
-  
+
 
   toggleEvent(index: number) {
     this.activeIndex = this.activeIndex === index ? null : index;

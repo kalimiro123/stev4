@@ -7,36 +7,36 @@
             <!-- LEFT BLOCK -->
             <div class="col-lg-3">
 
-                <img [src]="images.logo" class="footer-logo mb-4" alt="Logo">
+                <img [src]="images.logo" class="footer-logo mb-4" alt="Logo top Management Institute">
 
                 <div class="rating-box">
-                    <div class="rating-number">4.7</div>
+                    <div class="rating-number" aria-label="Rating 4.7 out of 5">4.7</div>
                     <div class="rating-text">Rating 4500 clients</div>
 
                     <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                        <i class="fas fa-star" aria-hidden="true"></i>
                     </div>
 
                     <div class="rating-source">
-                        <i class="fab fa-trustpilot"></i>
+                        <i class="fab fa-trustpilot" ></i>
                         <span>4.8 rating on Trustpilot</span>
                     </div>
                 </div>
 
                 <div class="rating-box mt-4">
-                    <div class="rating-number">4.5</div>
+                    <div class="rating-number" aria-label="Rating 4.5 out of 5">4.5</div>
                     <div class="rating-text">Rating 1300 clients</div>
 
                     <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                        <i class="fas fa-star" aria-hidden="true"></i>
                     </div>
 
                     <div class="rating-source">
@@ -50,7 +50,7 @@
 
                     <div class="newsletter-form">
                         <input type="email" placeholder="Votre adresse e-mail...">
-                        <button>S'inscrire</button>
+                        <button aria-label="inscrire">S'inscrire</button>
                     </div>
 
                 </div>
@@ -62,15 +62,15 @@
                 <h5>Accueil</h5>
 
                 <ul class="footer-links">
-                    <li><a href="#">Notre identité</a></li>
-                    <li><a href="#">Notre mission</a></li>
-                    <li><a href="#">Notre vision</a></li>
-                    <li><a href="#">Nos valeurs</a></li>
-                    <li><a href="#">Nos atouts</a></li>
-                    <li><a href="#">Conseil d'administration</a></li>
-                    <li><a href="#">Nos expert(e)s</a></li>
-                    <li><a href="#">Nos représentants régionaux</a></li>
-                    <li><a href="#">Nos réalisations</a></li>
+                    <li><a [routerLink]="['/home']" fragment="identite">Notre identité</a></li>
+                    <li><a [routerLink]="['/home']" fragment="mission">Notre mission</a></li>
+                    <li><a [routerLink]="['/home']" fragment="vision">Notre vision</a></li>
+                    <li><a [routerLink]="['/home']" fragment="valeurs">Nos valeurs</a></li>
+                    <li><a [routerLink]="['/home']" fragment="atouts">Nos atouts</a></li>
+                    <li><a [routerLink]="['/home']" fragment="conseil">Conseil d'administration</a></li>
+                    <li><a [routerLink]="['/home']" fragment="experts">Nos expert(e)s</a></li>
+                    <li><a [routerLink]="['/home']" fragment="representants">Nos représentants régionaux</a></li>
+                    <li><a [routerLink]="['/home']" fragment="realisations">Nos réalisations</a></li>
                 </ul>
 
             </div>
@@ -81,11 +81,11 @@
                 <h5>Pôles d’expertise</h5>
 
                 <ul class="footer-links">
-                    <li><a href="#">Stratégie</a></li>
-                    <li><a href="#">Governance</a></li>
-                    <li><a href="#">Transformations</a></li>
-                    <li><a href="#">Expérience Employée</a></li>
-                    <li><a href="#">Leadership</a></li>
+                    <li><a >Stratégie</a></li>
+                    <li><a >Governance</a></li>
+                    <li><a >Transformations</a></li>
+                    <li><a >Expérience Employée</a></li>
+                    <li><a >Leadership</a></li>
                 </ul>
 
             </div>
@@ -96,12 +96,12 @@
                 <h5>Offres de valeur</h5>
 
                 <ul class="footer-links">
-                    <li><a href="#">Leaders masterclass</a></li>
-                    <li><a href="#">WomenLead program</a></li>
-                    <li><a href="#">NextGen leaders program</a></li>
-                    <li><a href="#">Sustainability Lead program</a></li>
-                    <li><a href="#">Psychology & sociology</a></li>
-                    <li><a href="#">CEO Elite program</a></li>
+                    <li><a >Leaders masterclass</a></li>
+                    <li><a >WomenLead program</a></li>
+                    <li><a >NextGen leaders program</a></li>
+                    <li><a >Sustainability Lead program</a></li>
+                    <li><a >Psychology & sociology</a></li>
+                    <li><a >CEO Elite program</a></li>
                 </ul>
 
             </div>
@@ -112,9 +112,9 @@
                 <h5>Événements</h5>
 
                 <ul class="footer-links">
-                    <li><a href="#">TopManagement Talks</a></li>
-                    <li><a href="#">TMAM Top Management annual meeting</a></li>
-                    <li><a href="#">Sommet de la Gouvernance</a></li>
+                    <li><a >TopManagement Talks</a></li>
+                    <li><a >TMAM Top Management annual meeting</a></li>
+                    <li><a >Sommet de la Gouvernance</a></li>
                 </ul>
 
             </div>
@@ -162,12 +162,12 @@
                 <h5>ResearchLab</h5>
 
                 <ul class="footer-links">
-                    <li><a href="#">ResearchLab mission</a></li>
-                    <li><a href="#">ResearchLab program</a></li>
-                    <li><a href="#">ResearchLab Team</a></li>
-                    <li><a href="#">ResearchLab partners</a></li>
-                    <li><a href="#">Notre TMOR</a></li>
-                    <li><a href="#">Nos publications</a></li>
+                    <li><a >ResearchLab mission</a></li>
+                    <li><a >ResearchLab program</a></li>
+                    <li><a >ResearchLab Team</a></li>
+                    <li><a >ResearchLab partners</a></li>
+                    <li><a >Notre TMOR</a></li>
+                    <li><a >Nos publications</a></li>
                 </ul>
 
             </div>
@@ -179,9 +179,9 @@
                 <h5>Développement durable</h5>
 
                 <ul class="footer-links">
-                    <li><a href="#">La durabilité est notre ADN</a></li>
-                    <li><a href="#">Notre stratégie développement durable</a></li>
-                    <li><a href="#">Nos axes stratégiques durables</a></li>
+                    <li><a >La durabilité est notre ADN</a></li>
+                    <li><a >Notre stratégie développement durable</a></li>
+                    <li><a >Nos axes stratégiques durables</a></li>
                 </ul>
 
             </div>
@@ -192,9 +192,9 @@
                 <h5>Politiques</h5>
 
                 <ul class="footer-links">
-                    <li><a href="#">Politique Leader Care</a></li>
-                    <li><a href="#">Politique capital humain</a></li>
-                    <li><a href="#">Politique de partenariat</a></li>
+                    <li><a >Politique Leader Care</a></li>
+                    <li><a >Politique capital humain</a></li>
+                    <li><a >Politique de partenariat</a></li>
                 </ul>
 
             </div>
@@ -205,8 +205,8 @@
                 <h5>Agenda</h5>
 
                 <ul class="footer-links">
-                    <li><a href="#">Calendrier des événements</a></li>
-                    <li><a href="#">Politique de la green tarification</a></li>
+                    <li><a >Calendrier des événements</a></li>
+                    <li><a >Politique de la green tarification</a></li>
                 </ul>
 
             </div>
@@ -221,26 +221,26 @@
             <div class="row align-items-center">
 
                 <div class="col-md-4">
-                    <p class="copyright"><span>Agence</span> © Copyright All Right Reserved 2024</p>
+                    <p class="copyright"><span>Agence</span> © Copyright All Right Reserved 2026</p>
                 </div>
 
                 <div class="col-md-4 text-center">
 
                     <div class="footer-social">
 
-                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" aria-label="Linkedin"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                        <a aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                        <a aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                        <a aria-label="Linkedin" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                        <a aria-label="Twitter" target="_blank" rel="noopener noreferrer"><i class="fab fa-x-twitter"></i></a>
 
                     </div>
 
                 </div>
 
                 <div class="col-md-4 text-end tc-pc">
-                    <a href="#">Termes & Conditions</a>
+                    <a target="_blank">Termes & Conditions</a>
                     /
-                    <a href="#">Politique de confidentialité</a>
+                    <a target="_blank">Politique de confidentialité</a>
                 </div>
 
             </div>

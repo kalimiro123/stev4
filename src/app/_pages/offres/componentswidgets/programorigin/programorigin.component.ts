@@ -22,7 +22,7 @@ export class ProgramoriginComponent implements AfterViewInit {
   }
 
 
-  ngAfterViewInit(): void {}
+  ngAfterViewInit(): void { }
 
   /** video tab content **/
 }

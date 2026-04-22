@@ -28,7 +28,7 @@ export default class Politique {
   }
 
 
-  
+
   // ── Accordion ──
   toggleItem(event: MouseEvent): void {
     const btn = event.currentTarget as HTMLElement;

@@ -10,7 +10,7 @@ describe('ProgramoriginComponent', () => {
     await TestBed.configureTestingModule({
       imports: [ProgramoriginComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(ProgramoriginComponent);
     component = fixture.componentInstance;

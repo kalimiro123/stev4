@@ -31,12 +31,27 @@ body {
 }
 
 
-.breadcrumb-section .breadcrumb-content h3,.breadcrumb-section .breadcrumb-content p {
+.breadcrumb-section .breadcrumb-content h3, #carouselBreadcrumb {
     font-size: 18px;
-    color: #333;
+    font-weight: 600;
+    color: #191919;
     position: relative;
     padding: 0 30px;
     width: fit-content;
+    margin-bottom: 20px;
+    letter-spacing: 0px;
+    line-height: 30px;
+}
+
+.breadcrumb-section .breadcrumb-content p,#carouselBreadcrumb .carousel-inner{
+    font-size: 15px;
+    color: #343434;
+    position: relative;
+    width: fit-content;
+    margin-bottom: 20px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    font-weight: 300;
 }
 
 .breadcrumb-section h3 .quote-icon1, .quote-icon1 {
@@ -51,11 +66,24 @@ body {
     bottom: -6px;
 }
 
-.breadcrumb-section p {
+.breadcrumb-section p,
+.breadcrumb-section #carouselBreadcrumb {
     padding-left: 20px;
-    border-left: 2px solid #04740C;
     color: #343434;
     font-size: 15px;
+    position: relative;
+}
+
+.breadcrumb-section p::after,
+.breadcrumb-section #carouselBreadcrumb::after {
+    content: "";
+    width: 2px;
+    height: 80%;
+    background: #04740C;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5px;
 }
 
 .breadcrumb-section .det-breadcrumb {
@@ -88,6 +116,35 @@ body {
 .breadcrumb-section .image-wrapper img {
     max-height: 580px;
     object-fit: cover;
+}
+
+#carouselBreadcrumb .carousel-control-prev{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 15px;
+    top: auto;
+    bottom: -25px;
+    color: #191919;
+    font-size: 13px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+#carouselBreadcrumb .carousel-control-next{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 30px;
+    font-size: 13px;
+    top: auto;
+    right: auto;
+    bottom: -25px;
+    color: #191919;
+    border: none;
+    outline: none;
+    box-shadow: none;
 }
 
 
@@ -158,6 +215,39 @@ body {
 .circle-label i:first-child {
     color: #2ecc71;
 }
+
+
+
+/* Social icons */
+.social-icons {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+}
+
+.social-icons a {
+    width: 28px;
+    height: 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 13px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    border: 1px solid #7B7B7B;
+    color: #7B7B7B;
+}
+
+/* Hover effect */
+.social-icons a:hover {
+    border-color: #04740C;
+    color: #04740C;
+}
+
+
+
+
 
 p.paragline {
     margin-left: 30px;
@@ -230,4 +320,56 @@ p.paragline {
 
  .accordion-button::after{
   background-image: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
+.Tmi-Modal .btn-close{
+    top: -30px;
+    right: 0;
+    border: 2px solid #FFF;
+    padding: 5px;
+    border-radius: 50%;
+    color: #FFF;
+    font-size: 12px;
+    background-image: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: none;
+}
+
+
+.loading {
+    font-size: 15px;
+    line-height: 24px;
+    color: #04042c;
+    font-weight: 500;
+}
+
+
+
+
+.btn-custom {
+    background: #04042C;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.btn-custom:hover {
+    background: #151a3d;
 }

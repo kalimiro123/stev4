@@ -10,7 +10,7 @@ describe('FormContactComponent', () => {
     await TestBed.configureTestingModule({
       imports: [FormContactComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(FormContactComponent);
     component = fixture.componentInstance;

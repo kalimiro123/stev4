@@ -6,17 +6,17 @@
  * Exemple d'utilisation:
  * 
  * Dans un template HTML:
- * <img src="/public/images/logo.png" alt="Logo">
+ * <img src="/public/images/logo.png" alt="Logo Top Management">
  * 
  * Ou avec ngSrc pour les performances:
- * <img [ngSrc]="'/public/images/logo.png'" alt="Logo" width="200" height="100">
+ * <img [ngSrc]="'/public/images/logo.png'" alt="Logo Top Management" width="200" height="100">
  * 
  * Ou avec une variable TypeScript:
  * export class Component {
  *   logoUrl = '/public/images/logo.png';
  * }
  * 
- * <img [src]="logoUrl" alt="Logo">
+ * <img [src]="logoUrl" alt="Logo Top Management">
  */
 
 // 📌 STRUCTURE DES FICHIERS:

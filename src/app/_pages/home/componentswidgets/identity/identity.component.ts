@@ -8,5 +8,5 @@ import { APP_IMAGES } from '@app/_core/constantes/app-images';
   imports: [],
 })
 export class IdentityComponent {
-   public readonly images = APP_IMAGES;
+  public readonly images = APP_IMAGES;
 }

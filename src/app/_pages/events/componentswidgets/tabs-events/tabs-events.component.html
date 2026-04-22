@@ -4,7 +4,7 @@
         <!-- Tabs -->
         <ul class="nav custom-tabs justify-content-center mb-4 gap-2" id="eventsTab" role="tablist">
             <li class="nav-item">
-                <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#tab1">
+                <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#tab1" aria-label="Découvrir avantages leaders">
                     <svg xmlns="http://www.w3.org/2000/svg" width="19.428" height="25" viewBox="0 0 19.428 25">
                         <g id="avanatage" transform="translate(-55.797 0)">
                             <path id="Tracé_16052" data-name="Tracé 16052"
@@ -19,7 +19,7 @@
                 </button>
             </li>
             <li class="nav-item">
-                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab2">
+                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab2" aria-label="Ce que disent nos leaders">
                     <svg xmlns="http://www.w3.org/2000/svg" width="27.812" height="25" viewBox="0 0 27.812 25">
                         <g id="dire" transform="translate(-33.929 -55.773)">
                             <path id="Tracé_16056" data-name="Tracé 16056"
@@ -31,7 +31,7 @@
                 </button>
             </li>
             <li class="nav-item">
-                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab3">
+                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab3" aria-label="Calendrier Top Management Talks">
                     <svg xmlns="http://www.w3.org/2000/svg" width="25.718" height="25" viewBox="0 0 25.718 25">
                         <g id="calendar" transform="translate(0 -7.143)">
                             <path id="Tracé_16054" data-name="Tracé 16054"
@@ -460,7 +460,7 @@
                         <!-- Search -->
                         <div class="filter-box-left mb-3">
                             <input type="text" class="form-control" placeholder="Rechercher Talks...">
-                            <button>
+                            <button aria-label="chercher">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
                                     <path id="chercher"
                                         d="M14.785,13.9l-3.726-3.726a6.252,6.252,0,1,0-.883.883L13.9,14.785a.624.624,0,1,0,.883-.883ZM6.23,11.223A4.993,4.993,0,1,1,11.223,6.23,4.993,4.993,0,0,1,6.23,11.223Z"
@@ -624,7 +624,8 @@
                                 <div class="col-md-6">
                                     <div class="talk-card-left">
                                         <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df"
-                                            class="img-fluid rounded">
+                                            class="img-fluid rounded"
+                                            alt="Voix des Femmes : Prendre la Parole et Influencer le Monde du Travail">
                                         <h6>Voix des Femmes : Prendre la Parole et Influencer le Monde du Travail</h6>
                                         <div class="talk-meta mb-2">
                                             <div class="d-flex flex-wrap align-items-center gap-3">
@@ -669,7 +670,8 @@
                                                     Mazagan Beach & Resorts, Eljadida
                                                 </span>
                                                 <span class="d-flex align-items-center gap-3">
-                                                    <img src="https://flagcdn.com/ma.svg" width="22" class="rounded-0">
+                                                    <img src="https://flagcdn.com/ma.svg" width="22" class="rounded-0"
+                                                        alt="flag Maroc">
                                                     Maroc
                                                 </span>
                                             </div>
@@ -685,28 +687,30 @@
                                         <div class="d-flex flex-column gap-3">
                                             <div class="speaker mb-2">
                                                 <img class="speaker-profil"
-                                                    src="https://randomuser.me/api/portraits/women/44.jpg" />
+                                                    src="https://randomuser.me/api/portraits/women/44.jpg"
+                                                    alt="lamiaa Essafi" />
                                                 <div class="speaker-info">
                                                     <h4>lamiaa Essafi</h4>
                                                     <span class="speaker-domaine">Informatique</span>
                                                     <span class="speaker-poste">Administrateur Réseau</span>
                                                     <span class="speaker-country">
                                                         <img src="https://flagcdn.com/ma.svg" width="22px"
-                                                            class="rounded-0">
+                                                            class="rounded-0" alt="flag Maroc">
                                                         Maroc
                                                     </span>
                                                 </div>
                                             </div>
                                             <div class="speaker mb-2">
                                                 <img class="speaker-profil"
-                                                    src="https://randomuser.me/api/portraits/women/44.jpg" />
+                                                    src="https://randomuser.me/api/portraits/women/44.jpg"
+                                                    alt="Louise Jade" />
                                                 <div class="speaker-info">
                                                     <h4>Louise Jade</h4>
                                                     <span class="speaker-domaine">Expert d’assurances</span>
                                                     <span class="speaker-poste">Directeur général</span>
                                                     <span class="speaker-country">
                                                         <img src="https://flagcdn.com/fr.svg" width="22px"
-                                                            class="rounded-0">
+                                                            class="rounded-0" alt="flag France">
                                                         France
                                                     </span>
                                                 </div>
@@ -726,7 +730,7 @@
                                             <ng-template carouselSlide>
                                                 <div class="sponsor-card text-center">
                                                     <img src="https://www.cam.ac.uk/sites/default/files/university-cambridge-full-colour-preferred-logo-transparency-2362x491.png"
-                                                        class="logo mb-3">
+                                                        class="logo mb-3" alt="logo cam">
                                                     <a href="#" class="d-block mb-3 text-primary small">
                                                         <i class="fas fa-globe me-1"></i> www.www.cam.ac.uk
                                                     </a>
@@ -747,7 +751,7 @@
                                             <ng-template carouselSlide>
                                                 <div class="sponsor-card text-center">
                                                     <img src="https://www.cam.ac.uk/sites/default/files/university-cambridge-full-colour-preferred-logo-transparency-2362x491.png"
-                                                        class="logo mb-3">
+                                                        class="logo mb-3" alt="logo cam">
                                                     <a href="#" class="d-block mb-3 text-primary small">
                                                         <i class="fas fa-globe me-1"></i> www.www.cam.ac.uk
                                                     </a>
@@ -768,7 +772,7 @@
                                             <ng-template carouselSlide>
                                                 <div class="sponsor-card text-center">
                                                     <img src="https://www.cam.ac.uk/sites/default/files/university-cambridge-full-colour-preferred-logo-transparency-2362x491.png"
-                                                        class="logo mb-3">
+                                                        class="logo mb-3" alt="logo cam">
                                                     <a href="#" class="d-block mb-3 text-primary small">
                                                         <i class="fas fa-globe me-1"></i> www.www.cam.ac.uk
                                                     </a>
@@ -789,7 +793,7 @@
                                             <ng-template carouselSlide>
                                                 <div class="sponsor-card text-center">
                                                     <img src="https://www.cam.ac.uk/sites/default/files/university-cambridge-full-colour-preferred-logo-transparency-2362x491.png"
-                                                        class="logo mb-3">
+                                                        class="logo mb-3" alt="logo cam">
                                                     <a href="#" class="d-block mb-3 text-primary small">
                                                         <i class="fas fa-globe me-1"></i> www.www.cam.ac.uk
                                                     </a>
@@ -831,7 +835,8 @@
                                 <div class="col-md-6">
                                     <div class="talk-card-left">
                                         <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df"
-                                            class="img-fluid rounded">
+                                            class="img-fluid rounded"
+                                            alt="Leadership au Féminin : Redéfinir les Règles du Jeu">
                                         <h6>Leadership au Féminin : Redéfinir les Règles du Jeu</h6>
                                         <div class="talk-meta mb-2">
                                             <div class="d-flex flex-wrap align-items-center gap-3">
@@ -876,7 +881,8 @@
                                                     Palais des Congrès, Montréal
                                                 </span>
                                                 <span class="d-flex align-items-center gap-3">
-                                                    <img src="https://flagcdn.com/ca.svg" width="22" class="rounded-0">
+                                                    <img src="https://flagcdn.com/ca.svg" width="22" class="rounded-0"
+                                                        alt="flag Canada">
                                                     Canada
                                                 </span>
                                             </div>
@@ -892,28 +898,30 @@
                                         <div class="d-flex flex-column gap-3">
                                             <div class="speaker mb-2">
                                                 <img class="speaker-profil"
-                                                    src="https://randomuser.me/api/portraits/women/44.jpg" />
+                                                    src="https://randomuser.me/api/portraits/women/44.jpg"
+                                                    alt="lamiaa Essafi" />
                                                 <div class="speaker-info">
                                                     <h4>lamiaa Essafi</h4>
                                                     <span class="speaker-domaine">Informatique</span>
                                                     <span class="speaker-poste">Administrateur Réseau</span>
                                                     <span class="speaker-country">
                                                         <img src="https://flagcdn.com/ma.svg" width="22px"
-                                                            class="rounded-0">
+                                                            class="rounded-0" alt="flag Maroc">
                                                         Maroc
                                                     </span>
                                                 </div>
                                             </div>
                                             <div class="speaker mb-2">
                                                 <img class="speaker-profil"
-                                                    src="https://randomuser.me/api/portraits/women/44.jpg" />
+                                                    src="https://randomuser.me/api/portraits/women/44.jpg"
+                                                    alt="Sophie Martin" />
                                                 <div class="speaker-info">
                                                     <h4>Sophie Martin</h4>
                                                     <span class="speaker-domaine">Juridique</span>
                                                     <span class="speaker-poste">Directeur juridique</span>
                                                     <span class="speaker-country">
                                                         <img src="https://flagcdn.com/fr.svg" width="22px"
-                                                            class="rounded-0">
+                                                            class="rounded-0" alt="flag France">
                                                         France
                                                     </span>
                                                 </div>
@@ -933,7 +941,7 @@
                                             <ng-template carouselSlide>
                                                 <div class="sponsor-card text-center">
                                                     <img src="https://www.cam.ac.uk/sites/default/files/university-cambridge-full-colour-preferred-logo-transparency-2362x491.png"
-                                                        class="logo mb-3">
+                                                        class="logo mb-3" alt="logo cam">
                                                     <a href="#" class="d-block mb-3 text-primary small">
                                                         <i class="fas fa-globe me-1"></i> www.www.cam.ac.uk
                                                     </a>
@@ -954,7 +962,7 @@
                                             <ng-template carouselSlide>
                                                 <div class="sponsor-card text-center">
                                                     <img src="https://www.cam.ac.uk/sites/default/files/university-cambridge-full-colour-preferred-logo-transparency-2362x491.png"
-                                                        class="logo mb-3">
+                                                        class="logo mb-3" alt="logo cam">
                                                     <a href="#" class="d-block mb-3 text-primary small">
                                                         <i class="fas fa-globe me-1"></i> www.www.cam.ac.uk
                                                     </a>
@@ -975,7 +983,7 @@
                                             <ng-template carouselSlide>
                                                 <div class="sponsor-card text-center">
                                                     <img src="https://www.cam.ac.uk/sites/default/files/university-cambridge-full-colour-preferred-logo-transparency-2362x491.png"
-                                                        class="logo mb-3">
+                                                        class="logo mb-3" alt="logo cam">
                                                     <a href="#" class="d-block mb-3 text-primary small">
                                                         <i class="fas fa-globe me-1"></i> www.www.cam.ac.uk
                                                     </a>
@@ -996,7 +1004,7 @@
                                             <ng-template carouselSlide>
                                                 <div class="sponsor-card text-center">
                                                     <img src="https://www.cam.ac.uk/sites/default/files/university-cambridge-full-colour-preferred-logo-transparency-2362x491.png"
-                                                        class="logo mb-3">
+                                                        class="logo mb-3" alt="logo cam">
                                                     <a href="#" class="d-block mb-3 text-primary small">
                                                         <i class="fas fa-globe me-1"></i> www.www.cam.ac.uk
                                                     </a>
@@ -1032,7 +1040,7 @@
                         <!-- SECOND CARD -->
 
 
-                        <div class="loading d-flex justify-content-center align-items-center gap-3 text-muted">
+                        <div class="loading d-flex justify-content-center align-items-center gap-3">
                             <div class="d-flex align-items-end gap-1">
                                 <span class="dot"></span>
                                 <span class="dot"></span>

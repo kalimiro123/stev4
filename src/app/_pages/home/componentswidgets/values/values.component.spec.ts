@@ -10,7 +10,7 @@ describe('ValuesComponent', () => {
     await TestBed.configureTestingModule({
       imports: [ValuesComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(ValuesComponent);
     component = fixture.componentInstance;

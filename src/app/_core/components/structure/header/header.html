@@ -12,11 +12,11 @@
                 </button>
                 <div class="contact-box">
                     <div class="contact-item">
-                        <img src="https://flagcdn.com/ca.svg" alt="">
+                        <img src="https://flagcdn.com/ca.svg" alt="flag Canada">
                         <span>Office : +1 613 777 63 77</span>
                     </div>
                     <div class="contact-item">
-                        <img src="https://flagcdn.com/ma.svg" alt="">
+                        <img src="https://flagcdn.com/ma.svg" alt="flag Maroc">
                         <span>Office : +212 606 940 940</span>
                     </div>
                 </div>
@@ -31,7 +31,7 @@
 
                 <div class="contact-box">
                     <div class="contact-item">
-                        <img src="https://flagcdn.com/ma.svg" alt="">
+                        <img src="https://flagcdn.com/ma.svg" alt="flag Maroc">
                         <span>WhatsApp : +212 606 940 940</span>
                     </div>
                 </div>
@@ -39,7 +39,7 @@
 
             <!-- EMAIL -->
             <div class="contact-dropdown">
-                <button class="contact-icon has-arrow">
+                <button class="contact-icon has-arrow" aria-label="dots">
                     <i class="fas fa-at ico"></i>
                     <i class="fas fa-chevron-down arrow"></i>
                 </button>
@@ -59,10 +59,10 @@
 
             <!-- SOCIAL ICONS -->
             <div class="social-icons">
-                <a class="instagram"><i class="fab fa-instagram"></i></a>
-                <a class="facebook"><i class="fab fa-facebook-f"></i></a>
-                <a class="linkedin"><i class="fab fa-linkedin-in"></i></a>
-                <a class="twitter"><i class="fab fa-x-twitter"></i></a>
+                <a class="instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                <a class="facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                <a class="linkedin" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                <a class="twitter" target="_blank" rel="noopener noreferrer"><i class="fab fa-x-twitter"></i></a>
             </div>
 
             <!-- LANGUAGE -->
@@ -77,7 +77,7 @@
                 <ul class="dropdown-menu">
                     <li *ngFor="let lang of languages">
                         <a class="dropdown-item" (click)="changeLanguage(lang.code)" [class.active]="currentLanguage === lang.code">
-                            <img alt=""
+                            <img [alt]="lang.name"
                             [src]="'https://flagcdn.com/' + lang.flag + '.svg'" width="18" [alt]="lang.name">
                             {{ lang.name }}
                         </a>
@@ -114,7 +114,8 @@
                     <li class="nav-item">
                         <button class="nav-link"
                                 [routerLink]="m.route"
-                                routerLinkActive="active">
+                                routerLinkActive="active"
+                                aria-label="{{ m.key | translate }}">
                             {{ m.key | translate }}
                         </button>
                     </li>

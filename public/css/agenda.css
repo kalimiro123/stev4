@@ -8,42 +8,42 @@
   } */
 
 /* Header selects */
-.calendar-header {
+.bodyCalendar .calendar-header {
   display: flex;
   gap: 12px;
   margin-bottom: 0;
 }
 
-mat-form-field {
+.bodyCalendar mat-form-field {
   flex: 1;
 }
 
 /* Calendar card */
-.mat-calendar {
+.bodyCalendar .mat-calendar {
   background: white;
   border-radius: 16px;
   padding: 0;
 }
 
-.mat-calendar-controls {
+.bodyCalendar .mat-calendar-controls {
   margin: 0 0 15px;
 }
 
-.mat-calendar-content {
+.bodyCalendar .mat-calendar-content {
   border-radius: 10px;
   background: #F9FBFE;
   padding: 20px;
 }
 
-.mat-calendar-body-cell::before,
-.mat-calendar-body-cell::after,
-.mat-calendar-body-cell-preview {
+.bodyCalendar .mat-calendar-body-cell::before,
+.bodyCalendar .mat-calendar-body-cell::after,
+.bodyCalendar .mat-calendar-body-cell-preview {
   width: 40px;
   height: 40px;
 }
 
 /* Days style */
-.mat-calendar-body-cell-content {
+.bodyCalendar .mat-calendar-body-cell-content {
   border-radius: 10px;
   width: 40px;
   height: 40px;
@@ -53,42 +53,42 @@ mat-form-field {
 
 
 /* Selected day */
-.mat-calendar-body-selected {
+.bodyCalendar .mat-calendar-body-selected {
   background-color: #FFFFFF !important;
   color: #191919 !important;
   box-shadow: 1px 8px 12px #00000014;
 }
 
 /* Today highlight */
-.mat-calendar-body-today {
+.bodyCalendar .mat-calendar-body-today {
   border: 1px solid #4caf50;
 }
 
 /* Hover effect */
-.mat-calendar-body-cell:hover .mat-calendar-body-cell-content {
+.bodyCalendar .mat-calendar-body-cell:hover .mat-calendar-body-cell-content {
   background: #f0f4ff;
 }
 
 /* Header (June 2024) */
-.mat-calendar-header {
+.bodyCalendar .mat-calendar-header {
   padding: 0;
   font-weight: 600;
 }
 
 /* Navigation buttons */
-.mat-calendar-previous-button,
-.mat-calendar-next-button {
+.bodyCalendar .mat-calendar-previous-button,
+.bodyCalendar .mat-calendar-next-button {
   background: #e0e0e0;
   border-radius: 50%;
 }
 
-.mat-calendar-next-button {
+.bodyCalendar .mat-calendar-next-button {
   margin-left: 10px;
 }
 
 /* Active arrow (like green button) */
-.mat-calendar-previous-button:hover,
-.mat-calendar-next-button:hover {
+.bodyCalendar .mat-calendar-previous-button:hover,
+.bodyCalendar .mat-calendar-next-button:hover {
   background: #0f9d58;
   color: white;
 }
@@ -123,7 +123,7 @@ mat-form-field {
 
 
 
-.testimonial-section {
+.bodyCalendar .testimonial-section {
   background: #F9FBFE;
 }
 
@@ -135,7 +135,7 @@ mat-form-field {
     border-radius: 50%;
     margin-right: 8px;
   } */
-.testimonial-section .circle-label {
+/* .testimonial-section .circle-label {
   display: inline-flex;
   align-items: center;
   font-size: 16px;
@@ -143,26 +143,26 @@ mat-form-field {
   color: #343434;
   margin-bottom: 15px;
   gap: 10px;
-}
+} */
 
-.accordion-button:not(.collapsed) {
+.bodyCalendar .accordion-button:not(.collapsed) {
   background: transparent;
   box-shadow: none;
   outline: none;
 }
 
-.accordion-item:has(.accordion-collapse.show) {
+.bodyCalendar .accordion-item:has(.accordion-collapse.show) {
   background-color: #343434;
   /* example darker bg so white is visible */
   border-color: #343434;
 }
 
 /* Make all text white */
-.accordion-item:has(.accordion-collapse.show) * {
+.bodyCalendar .accordion-item:has(.accordion-collapse.show) * {
   color: #fff !important;
 }
 
-.testimonial-section .circle-label i {
+/* .testimonial-section .circle-label i {
   color: #343434;
   font-size: 10px;
 }
@@ -170,14 +170,14 @@ mat-form-field {
 .testimonial-section .circle-label i:first-child {
   color: #2ecc71;
 
-}
+} */
 
-.testimonial-section .testimonial-carousel {
+.bodyCalendar .testimonial-section .testimonial-carousel {
   position: relative;
 }
 
-.testimonial-section .testimonial-carousel .owl-prev,
-.testimonial-section .testimonial-carousel .owl-next{
+.bodyCalendar .testimonial-section .testimonial-carousel .owl-prev,
+.bodyCalendar .testimonial-section .testimonial-carousel .owl-next{
   position: absolute;
   top: -50px;
   /* right: 0; */
@@ -195,21 +195,21 @@ mat-form-field {
   font-size: 12px;
 }
 
-.testimonial-section .testimonial-carousel .owl-prev:hover,
-.testimonial-section .testimonial-carousel .owl-next:hover {
+.bodyCalendar .testimonial-section .testimonial-carousel .owl-prev:hover,
+.bodyCalendar .testimonial-section .testimonial-carousel .owl-next:hover {
   background: #0b7a2a;
   color: #FFFFFF;
 }
 
-.testimonial-section .testimonial-carousel .owl-prev{
+.bodyCalendar .testimonial-section .testimonial-carousel .owl-prev{
   right: 40px;
 }
 
-.testimonial-section .testimonial-carousel .owl-next{
+.bodyCalendar .testimonial-section .testimonial-carousel .owl-next{
   right: 0px;
 }
 
-.testimonial-section .testimonial-carousel .testimonial-card {
+.bodyCalendar .testimonial-section .testimonial-carousel .testimonial-card {
   background: #F2F5F9;
   border-radius: 10px;
   padding: 30px 25px;
@@ -218,35 +218,35 @@ mat-form-field {
   height: 100%;
 }
 
-.testimonial-section .testimonial-carousel .owl-item.center .testimonial-card {
+.bodyCalendar .testimonial-section .testimonial-carousel .owl-item.center .testimonial-card {
   background: #FFFFFF;
   box-shadow: 10px 25px 30px #0000000D;
 }
 
-.testimonial-section .testimonial-card p {
+.bodyCalendar .testimonial-section .testimonial-card p {
   font-size: 14px;
   color: #6c757d;
   margin: 20px 0;
 }
 
-.testimonial-section .testimonial-card a {
+.bodyCalendar .testimonial-section .testimonial-card a {
   text-decoration: none;
   font-weight: 500;
 }
 
-.testimonial-section .profile {
+.bodyCalendar .testimonial-section .profile {
   display: flex;
   justify-content: center;
 }
 
-.testimonial-section .profile img {
+.bodyCalendar .testimonial-section .profile img {
   width: 80px !important;
   height: 80px;
   border-radius: 50%;
   margin-top: 10px;
 }
 
-.testimonial-section .quote-icon {
+.bodyCalendar .testimonial-section .quote-icon {
   font-size: 24px;
   position: absolute;
   top: 15px;
@@ -254,7 +254,7 @@ mat-form-field {
   opacity: 0.8;
 }
 
-.testimonial-section .name {
+.bodyCalendar .testimonial-section .name {
   font-weight: 500;
   margin-top: 10px;
   color: #343434;
@@ -262,19 +262,19 @@ mat-form-field {
   letter-spacing: 0px;
 }
 
-.testimonial-section .role {
+.bodyCalendar .testimonial-section .role {
   font-size: 15px;
   color: #04042C;
   font-weight: 600;
 }
 
-.testimonial-section .company {
+.bodyCalendar .testimonial-section .company {
   color: #0069FF;
   font-size: 13px;
   font-weight: 500;
 }
 
-.testimonial-section .linkedin {
+.bodyCalendar .testimonial-section .linkedin {
   position: absolute;
   top: 15px;
   right: 15px;
@@ -290,13 +290,13 @@ mat-form-field {
   border: 1px solid #707070;
 }
 
-.testimonial-section .testimonial-carousel .owl-item.center .linkedin {
+.bodyCalendar .testimonial-section .testimonial-carousel .owl-item.center .linkedin {
   color: #0a66c2;
   border-color: #0a66c2;
 }
 
 /* Owl dots */
-.testimonial-section .testimonial-carousel .owl-dots {
+.bodyCalendar .testimonial-section .testimonial-carousel .owl-dots {
   margin-top: 20px;
   justify-content: center;
   align-items: center;
@@ -304,7 +304,7 @@ mat-form-field {
   gap: 5px;
 }
 
-.testimonial-section .testimonial-carousel .owl-dots .owl-dot span {
+.bodyCalendar .testimonial-section .testimonial-carousel .owl-dots .owl-dot span {
   background: #ECECEC;
   width: 8px;
   height: 8px;
@@ -313,7 +313,7 @@ mat-form-field {
   border-radius: 50%;
 }
 
-.testimonial-section .testimonial-carousel .owl-dots .owl-dot.active span {
+.bodyCalendar .testimonial-section .testimonial-carousel .owl-dots .owl-dot.active span {
   background: #04740C;
 }
 
@@ -338,14 +338,14 @@ mat-form-field {
   margin: auto;
 } */
 
-.timeline-container .timeline-nav{
+.bodyCalendar .timeline-container .timeline-nav{
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
 }
 
-.timeline-container .timeline-nav button{
+.bodyCalendar .timeline-container .timeline-nav button{
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -357,14 +357,14 @@ mat-form-field {
   color: #000000;
 }
 
-.timeline-list {
+.bodyCalendar .timeline-list {
   max-height: 600px;
   overflow-y: hidden;
   padding-right: 5px;
 }
 
 /* Card */
-.event-card {
+.bodyCalendar .event-card {
   background: #f8f9fb;
   border-radius: 12px;
   padding: 15px;
@@ -373,13 +373,13 @@ mat-form-field {
   transition: 0.3s;
 }
 
-.event-card.active {
+.bodyCalendar .event-card.active {
   background: #2f2f2f;
   color: #fff;
 }
 
 /* Icon */
-.event-icon {
+.bodyCalendar .event-icon {
   width: 45px;
   height: 45px;
   border-radius: 50%;
@@ -389,7 +389,7 @@ mat-form-field {
   color: #fff;
 }
 
-.top-filters{
+.bodyCalendar .top-filters{
   background: #F9F9F9;
   border-radius: 5px;
   padding: 10px;
@@ -402,7 +402,7 @@ mat-form-field {
   scrollbar-width: none;
 }
 
-.top-filters button{
+.bodyCalendar .top-filters button{
   height: 35px;
   outline: none;
   color: #191919;
@@ -410,19 +410,19 @@ mat-form-field {
   text-wrap: nowrap;
 }
 
-.top-filters button.active{
+.bodyCalendar .top-filters button.active{
   box-shadow: 0 4px 15px #0000001A;
   background: #04740C;
   color: #FFFFFF;
 }
 
 /* Content */
-.event-content {
+.bodyCalendar .event-content {
   border-top: 1px solid rgba(255,255,255,0.2);
   padding-top: 10px;
 }
 
-.event-content .event-btns button{
+.bodyCalendar .event-content .event-btns button{
   border-radius: 3px;
   border: 1px solid #FFFFFF;
   font-size: 12px;
@@ -432,7 +432,7 @@ mat-form-field {
   padding: 10px;
 }
 
-.event-content .event-btns button:hover{
+.bodyCalendar .event-content .event-btns button:hover{
   background: #fff;
   color: #000;
 }
@@ -449,11 +449,11 @@ mat-form-field {
 } */
 
 /* Scrollbar (optional clean UI) */
-.timeline-list::-webkit-scrollbar {
+.bodyCalendar .timeline-list::-webkit-scrollbar {
   width: 6px;
 }
 
-.timeline-list::-webkit-scrollbar-thumb {
+.bodyCalendar .timeline-list::-webkit-scrollbar-thumb {
   background: #ccc;
   border-radius: 10px;
 }
