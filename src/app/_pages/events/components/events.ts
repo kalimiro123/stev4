@@ -10,7 +10,7 @@ import { APP_IMAGES } from '@app/_core/constantes/app-images';
   selector: 'app-events',
   templateUrl: './events.html',
   styleUrls: ['./events.css'],  // ✅ CSS LOCAL
-  encapsulation: ViewEncapsulation.Emulated,  // Par défaut
+  encapsulation: ViewEncapsulation.None,  // Par défaut
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
     CommonModule,

@@ -1012,6 +1012,11 @@ textarea:focus {
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 6px;
+    border:8px solid #ede8e6;
+}
+
+.members-section .avatar.active img{
+    border-color: #77b97c;
 }
 
 .members-section .avatar h6 {

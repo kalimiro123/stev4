@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, ChangeDetectionStrategy } from '@angular/core';
+import { Component, ChangeDetectionStrategy, ViewEncapsulation } from '@angular/core';
 import { BreadcrumbComponent } from '../../../_core/components/widgets/breadcrumb/breadcrumb.component';
 import { MissionLaboComponent } from '../componentswidgets/mission-labo/mission-labo.component';
 import { ProgrammeSearchComponent } from '../componentswidgets/programme-search/programme-search.component';
@@ -13,6 +13,7 @@ import { APP_IMAGES } from '@app/_core/constantes/app-images';
   selector: 'app-research',
   templateUrl: './research.html',
   styleUrls: ['./research.css'],
+  encapsulation: ViewEncapsulation.None,  // Par défaut
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
     CommonModule,

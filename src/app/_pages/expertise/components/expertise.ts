@@ -13,7 +13,7 @@ import { APP_IMAGES } from '@app/_core/constantes/app-images';
   selector: 'app-expertise',
   templateUrl: './expertise.html',
   styleUrls: ['./expertise.css'],  // ✅ CSS LOCAL
-  encapsulation: ViewEncapsulation.Emulated,  // Par défaut
+  encapsulation: ViewEncapsulation.None,  // Par défaut
   changeDetection: ChangeDetectionStrategy.OnPush,
   standalone: true,
   imports: [CommonModule,

@@ -11,7 +11,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
   selector: 'app-agenda',
   templateUrl: './agenda.html',
   styleUrls: ['./agenda.css'],  // ✅ CSS LOCAL
-  encapsulation: ViewEncapsulation.Emulated,  // Par défaut
+  encapsulation: ViewEncapsulation.None,  // Par défaut
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
     CommonModule,
