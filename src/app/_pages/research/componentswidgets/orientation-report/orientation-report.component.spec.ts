@@ -10,7 +10,7 @@ describe('OrientationReportComponent', () => {
     await TestBed.configureTestingModule({
       imports: [OrientationReportComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(OrientationReportComponent);
     component = fixture.componentInstance;

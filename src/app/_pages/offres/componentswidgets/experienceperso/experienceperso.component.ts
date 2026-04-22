@@ -4,8 +4,8 @@ import { APP_IMAGES } from '@app/_core/constantes/app-images';
 
 @Component({
   selector: 'app-experienceperso',
-  standalone: true,        
-  imports: [CommonModule], 
+  standalone: true,
+  imports: [CommonModule],
   templateUrl: './experienceperso.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

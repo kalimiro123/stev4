@@ -20,8 +20,8 @@
  * http://localhost:4200/public/images/hero1.png
  * 
  * TEST dans un template:
- * <img src="/public/images/logo.png" alt="Logo" width="200">
+ * <img src="/public/images/logo.png" alt="Logo Top Management" width="200">
  * 
  * TEST avec ngSrc:
- * <img [ngSrc]="'/public/images/logo.png'" alt="Logo" width="200" height="50">
+ * <img [ngSrc]="'/public/images/logo.png'" alt="Logo Top Management" width="200" height="50">
  */

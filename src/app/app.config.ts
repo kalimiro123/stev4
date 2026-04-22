@@ -1,4 +1,6 @@
 import { registerLocaleData } from '@angular/common';
+import { provideRouter, withInMemoryScrolling } from '@angular/router';
+import { routes } from './app.routes';
 import {
   ApplicationConfig,
   enableProdMode,
@@ -29,6 +31,13 @@ if (environment.production === true) {
 
 export const appConfigClient: ApplicationConfig = {
   providers: [
+    provideRouter(
+      routes,
+      withInMemoryScrolling({
+        anchorScrolling: 'enabled',
+        scrollPositionRestoration: 'enabled',
+      })
+    ),
     // 📌 Core application configuration
     ...provideCore(),
     // 📌 Registers global error listeners for browser-level exceptions, aiding in centralized error handling

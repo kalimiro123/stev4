@@ -10,7 +10,7 @@ describe('DurabiliteADNComponent', () => {
     await TestBed.configureTestingModule({
       imports: [DurabiliteADNComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(DurabiliteADNComponent);
     component = fixture.componentInstance;

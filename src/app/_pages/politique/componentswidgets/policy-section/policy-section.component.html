@@ -49,7 +49,7 @@
                         <!-- Item 1 (ouvert par défaut) -->
                         <div class="gov-accordion-item open">
                             <h2 class="accordion-header">
-                                <button class="accordion-button fs-15" (click)="toggleItem($event)">
+                                <button class="accordion-button fs-15" (click)="toggleItem($event)" aria-label="Une fluidité et simplicité de votre inscription">
                                     <i class="fas fa-minus toggle-icon me-2 text-success"></i>
                                     Promesse 1 : Une fluidité et simplicité de votre inscription
                                 </button>
@@ -64,7 +64,7 @@
                         <!-- Item 2 -->
                         <div class="gov-accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button fs-15" (click)="toggleItem($event)">
+                                <button class="accordion-button fs-15" (click)="toggleItem($event)" aria-label="Une personnalisation totale de votre Expérience Leader">
                                     <i class="fas fa-plus toggle-icon me-2 text-success"></i>
                                     Promesse 2 : Une personnalisation totale de votre Expérience Leader.
                                 </button>
@@ -79,7 +79,7 @@
                         <!-- Item 3 -->
                         <div class="gov-accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button fs-15" (click)="toggleItem($event)">
+                                <button class="accordion-button fs-15" (click)="toggleItem($event)" aria-label="Un Transfert de compétences assuré">
                                     <i class="fas fa-plus toggle-icon me-2 text-success"></i>
                                     Promesse 3 : Un Transfert de compétences assuré
                                 </button>
@@ -94,7 +94,7 @@
                         <!-- Item 4 -->
                         <div class="gov-accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button fs-15" (click)="toggleItem($event)">
+                                <button class="accordion-button fs-15" (click)="toggleItem($event)" aria-label="Indemnisation automatique">
                                     <i class="fas fa-plus toggle-icon me-2 text-success"></i>
                                     Promesse 4 : Indemnisation automatique au cas d'insatisfaction
                                 </button>
@@ -133,7 +133,7 @@
                         <!-- Recrutement (ouvert par défaut) -->
                         <div class="gov-accordion-item open">
                             <h2 class="accordion-header">
-                                <button class="accordion-button fs-15" (click)="toggleItem($event)">
+                                <button class="accordion-button fs-15" (click)="toggleItem($event)" aria-label="Recrutement">
                                     <i class="fas fa-minus toggle-icon text-success me-2"></i>
                                     Recrutement
                                 </button>
@@ -161,7 +161,7 @@
                         <!-- Intégration -->
                         <div class="gov-accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button fs-15" (click)="toggleItem($event)">
+                                <button class="accordion-button fs-15" (click)="toggleItem($event)" aria-label="Intégration">
                                     <i class="fas fa-plus toggle-icon text-success me-2"></i>
                                     Intégration
                                 </button>
@@ -178,7 +178,7 @@
                         <!-- Formation -->
                         <div class="gov-accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button fs-15" (click)="toggleItem($event)">
+                                <button class="accordion-button fs-15" (click)="toggleItem($event)" aria-label="Formation">
                                     <i class="fas fa-plus toggle-icon text-success me-2"></i>
                                     Formation
                                 </button>
@@ -195,7 +195,7 @@
                         <!-- Suivi et coaching de performance -->
                         <div class="gov-accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button fs-15" (click)="toggleItem($event)">
+                                <button class="accordion-button fs-15" (click)="toggleItem($event)" aria-label="Suivi et coaching de performance">
                                     <i class="fas fa-plus toggle-icon text-success me-2"></i>
                                     Suivi et coaching de performance
                                 </button>
@@ -212,7 +212,7 @@
                         <!-- Évolution de carrière -->
                         <div class="gov-accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button fs-15" (click)="toggleItem($event)">
+                                <button class="accordion-button fs-15" (click)="toggleItem($event)" aria-label="Évolution de carrière">
                                     <i class="fas fa-plus toggle-icon text-success me-2"></i>
                                     Évolution de carrière
                                 </button>
@@ -231,8 +231,9 @@
                     <div class="d-flex flex-column flex-md-row align-items-center gap-3 mt-4 mb-4 p-4 bg-infoste">
                         <span class="text-muted">Si vous êtes intéressé(e)s de rejoindre une équipe internationale,
                             multiculturelle et solidaire, nous sommes là pour accueillir.</span>
-                        <button class="btn btn-dark w-50">Rejoindre l'équipe <i
-                                class="fa-solid fa-chevron-right"></i></button>
+                        <button class="btn btn-dark w-50" aria-label="Rejoindre l'équipe">
+                            Rejoindre l'équipe <i class="fa-solid fa-chevron-right"></i>
+                        </button>
                     </div>
 
                 </div>
@@ -258,7 +259,7 @@
                             <h2 class="accordion-header">
                                 <button
                                     class="accordion-button collapsed px-0 bg-transparent shadow-none fw-semibold text-dark"
-                                    data-bs-toggle="collapse" data-bs-target="#t3_1" aria-expanded="false">
+                                    data-bs-toggle="collapse" data-bs-target="#t3_1" aria-expanded="false" aria-label="Une logique de partenariat claire">
                                     <i class="fas fa-plus text-success me-2"></i>
                                     Une logique de partenariat claire
                                 </button>
@@ -273,7 +274,7 @@
                                                 <button
                                                     class="accordion-button px-0 bg-transparent shadow-none fw-semibold text-dark"
                                                     data-bs-toggle="collapse" data-bs-target="#t3_sub1"
-                                                    aria-expanded="true">
+                                                    aria-expanded="true" aria-label="Nos partenaires">
                                                     <i class="fas fa-minus text-success me-2"></i>
                                                     Nos partenaires alignés et engagés
                                                 </button>
@@ -317,45 +318,59 @@
                                                                         class="nav-link active px-3 py-1 rounded-0 border-0 border-bottom border-success border-2"
                                                                         id="tab-tous" data-bs-toggle="tab"
                                                                         data-bs-target="#tous"
-                                                                        type="button">Tous</button>
+                                                                        type="button" aria-label="Tous">
+                                                                        Tous
+                                                                    </button>
                                                                 </li>
                                                                 <li class="nav-item" role="presentation">
                                                                     <button
                                                                         class="nav-link px-3 py-1 rounded-0 border-0"
                                                                         data-bs-toggle="tab"
                                                                         data-bs-target="#institutionnels"
-                                                                        type="button">Institutionnels</button>
+                                                                        type="button" aria-label="Institutionnels">
+                                                                        Institutionnels
+                                                                    </button>
                                                                 </li>
                                                                 <li class="nav-item" role="presentation">
                                                                     <button
                                                                         class="nav-link px-3 py-1 rounded-0 border-0"
                                                                         data-bs-toggle="tab" data-bs-target="#sponsors"
-                                                                        type="button">Sponsors</button>
+                                                                        type="button" aria-label="Sponsors">
+                                                                        Sponsors
+                                                                    </button>
                                                                 </li>
                                                                 <li class="nav-item" role="presentation">
                                                                     <button
                                                                         class="nav-link px-3 py-1 rounded-0 border-0"
                                                                         data-bs-toggle="tab"
                                                                         data-bs-target="#universites"
-                                                                        type="button">Universités</button>
+                                                                        type="button" aria-label="Universités">
+                                                                        Universités
+                                                                    </button>
                                                                 </li>
                                                                 <li class="nav-item" role="presentation">
                                                                     <button
                                                                         class="nav-link px-3 py-1 rounded-0 border-0"
                                                                         data-bs-toggle="tab" data-bs-target="#ong"
-                                                                        type="button">ONG</button>
+                                                                        type="button" aria-label="ONG">
+                                                                        ONG
+                                                                    </button>
                                                                 </li>
                                                                 <li class="nav-item" role="presentation">
                                                                     <button
                                                                         class="nav-link px-3 py-1 rounded-0 border-0"
                                                                         data-bs-toggle="tab" data-bs-target="#assopro"
-                                                                        type="button">Associations pro</button>
+                                                                        type="button" aria-label="Associations pro">
+                                                                        Associations pro
+                                                                    </button>
                                                                 </li>
                                                                 <li class="nav-item" role="presentation">
                                                                     <button
                                                                         class="nav-link px-3 py-1 rounded-0 border-0"
                                                                         data-bs-toggle="tab" data-bs-target="#medias"
-                                                                        type="button">Médias</button>
+                                                                        type="button" aria-label="Medias">
+                                                                        Médias
+                                                                    </button>
                                                                 </li>
                                                             </ul>
 
@@ -681,8 +696,8 @@
                             </div>
                         </div>
                         <div class="d-flex flex-column flex-md-row align-items-center gap-3 mt-4 mb-4 p-4 bg-infoste">
-                            <button class="btn btn-dark w-50">Devenir partenaire<i
-                                    class="fa-solid fa-chevron-right"></i></button>
+                            <button class="btn btn-dark w-50" aria-label="Devenir partenaire">
+                                Devenir partenaire<i class="fa-solid fa-chevron-right"></i></button>
                         </div>
 
                     </div>

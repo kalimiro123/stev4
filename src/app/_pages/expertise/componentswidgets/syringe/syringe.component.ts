@@ -10,7 +10,7 @@ import { APP_IMAGES } from '@app/_core/constantes/app-images';
 })
 export class SyringeComponent {
   public readonly images = APP_IMAGES;
-  
+
   // ── Syringe tabs ──
   activeTab: number = 0;
 

@@ -10,7 +10,7 @@ describe('TmiNewsletterComponent', () => {
     await TestBed.configureTestingModule({
       imports: [TmiNewsletterComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(TmiNewsletterComponent);
     component = fixture.componentInstance;

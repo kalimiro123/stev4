@@ -10,7 +10,7 @@ describe('ManagehumainComponent', () => {
     await TestBed.configureTestingModule({
       imports: [ManagehumainComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(ManagehumainComponent);
     component = fixture.componentInstance;

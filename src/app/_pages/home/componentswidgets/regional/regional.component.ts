@@ -21,80 +21,80 @@ export class RegionalComponent {
   visibleCount = 4;
 
   team = [
-    { 
-      name: "OMAR KASSOU", 
-      rs:{
+    {
+      name: "OMAR KASSOU",
+      rs: {
         instagram: "https://www.instagram.com/OMAR_KASSOU",
         facebook: "https://www.facebook.com/OMAR_KASSOU",
         linkedin: "https://www.linkedin.com/OMAR_KASSOU",
         x_twitter: "https://www.x.com/OMAR_KASSOU",
       },
-      role: "Expert", 
+      role: "Expert",
       poste: "CEO BearingPoint",
-      country: "UAE", 
-      flag: "https://flagcdn.com/w20/ae.png", 
-      image: "https://i.pravatar.cc/100?img=1", 
-      bio: "Jeunesse et Formation : Mouncef a grandi dans un environnement où l'éducation et l'ambition étaient fortement valorisées. Son parcours académique exemplaire au Maroc lui a permis d'envisager des horizons plus larges, notamment le rêve de poursuivre ses études à l'étranger. Carrière Professionnelle : Après avoir brillamment terminé ses études, Mouncef a saisi l'opportunité de travailler au Canada. Il a été embauché par une entreprise locale, où il a rapidement fait ses preuves grâce à son expertise, son éthique de travail rigoureuse et sa capacité à s'adapter à de nouveaux défis. Son travail acharné et ses compétences exceptionnelles lui ont permis de gravir les échelons au sein de l'entreprise, gagnant le respect de ses collègues et de ses supérieurs." 
+      country: "UAE",
+      flag: "https://flagcdn.com/w20/ae.png",
+      image: "https://i.pravatar.cc/100?img=1",
+      bio: "Jeunesse et Formation : Mouncef a grandi dans un environnement où l'éducation et l'ambition étaient fortement valorisées. Son parcours académique exemplaire au Maroc lui a permis d'envisager des horizons plus larges, notamment le rêve de poursuivre ses études à l'étranger. Carrière Professionnelle : Après avoir brillamment terminé ses études, Mouncef a saisi l'opportunité de travailler au Canada. Il a été embauché par une entreprise locale, où il a rapidement fait ses preuves grâce à son expertise, son éthique de travail rigoureuse et sa capacité à s'adapter à de nouveaux défis. Son travail acharné et ses compétences exceptionnelles lui ont permis de gravir les échelons au sein de l'entreprise, gagnant le respect de ses collègues et de ses supérieurs."
     },
-    { 
-      name: "LOUISE JADE", 
-      rs:{
+    {
+      name: "LOUISE JADE",
+      rs: {
         instagram: "https://www.instagram.com/LOUISE_JADE",
         facebook: "https://www.facebook.com/LOUISE_JADE",
         linkedin: "https://www.linkedin.com/LOUISE_JADE",
         x_twitter: "https://www.x.com/LOUISE_JADE",
       },
       role: "Creative Director",
-      poste: "CEO BearingPoint 2", 
-      country: "France", 
-      flag: "https://flagcdn.com/w20/fr.png", 
-      image: "https://i.pravatar.cc/100?img=2", 
-      bio: "Creative leader" 
+      poste: "CEO BearingPoint 2",
+      country: "France",
+      flag: "https://flagcdn.com/w20/fr.png",
+      image: "https://i.pravatar.cc/100?img=2",
+      bio: "Creative leader"
     },
-    { 
-      name: "MOUNCEF NOUANI", 
-      rs:{
+    {
+      name: "MOUNCEF NOUANI",
+      rs: {
         instagram: "https://www.instagram.com/MOUNCEF_NOUANI",
         facebook: "https://www.facebook.com/MOUNCEF_NOUANI",
         linkedin: "https://www.linkedin.com/MOUNCEF_NOUANI",
         x_twitter: "https://www.x.com/MOUNCEF_NOUANI",
       },
-      role: "Transformation", 
+      role: "Transformation",
       poste: "CEO BearingPoint 3",
-      country: "Canada", 
-      flag: "https://flagcdn.com/w20/ca.png", 
-      image: "https://i.pravatar.cc/100?img=3", 
-      bio: "Transformation expert" 
+      country: "Canada",
+      flag: "https://flagcdn.com/w20/ca.png",
+      image: "https://i.pravatar.cc/100?img=3",
+      bio: "Transformation expert"
     },
-    { 
-      name: "ABDELLATIF EL MAHRAOUI", 
-      rs:{
+    {
+      name: "ABDELLATIF EL MAHRAOUI",
+      rs: {
         instagram: "https://www.instagram.com/ABDELLATIF_EL_MAHRAOUI",
         facebook: "https://www.facebook.com/ABDELLATIF_EL_MAHRAOUI",
         linkedin: "https://www.linkedin.com/ABDELLATIF_EL_MAHRAOUI",
         x_twitter: "https://www.x.com/ABDELLATIF_EL_MAHRAOUI",
       },
-      role: "Strategy", 
-      poste: "CEO BearingPoint 4", 
-      country: "Maroc", 
-      flag: "https://flagcdn.com/w20/ma.png", 
-      image: "https://i.pravatar.cc/100?img=4", 
-      bio: "Strategy expert" 
+      role: "Strategy",
+      poste: "CEO BearingPoint 4",
+      country: "Maroc",
+      flag: "https://flagcdn.com/w20/ma.png",
+      image: "https://i.pravatar.cc/100?img=4",
+      bio: "Strategy expert"
     },
-    { 
-      name: "NEW MEMBER", 
-      rs:{
+    {
+      name: "NEW MEMBER",
+      rs: {
         instagram: "https://www.instagram.com/NEW_MEMBER",
         facebook: "https://www.facebook.com/NEW_MEMBER",
         linkedin: "https://www.linkedin.com/NEW_MEMBER",
         x_twitter: "https://www.x.com/NEW_MEMBER",
       },
-      role: "Consultant", 
+      role: "Consultant",
       poste: "CEO BearingPoint 5",
-      country: "USA", 
-      flag: "https://flagcdn.com/w20/us.png", 
-      image: "https://i.pravatar.cc/100?img=5", 
-      bio: "Consultant" 
+      country: "USA",
+      flag: "https://flagcdn.com/w20/us.png",
+      image: "https://i.pravatar.cc/100?img=5",
+      bio: "Consultant"
     }
   ];
 
@@ -107,7 +107,7 @@ export class RegionalComponent {
     this.updateVisibleTeam();
   }
 
- 
+
 
   // ==============================
   // TEAM METHODS
@@ -249,6 +249,6 @@ export class RegionalComponent {
     });
   }
 
- 
+
 
 }

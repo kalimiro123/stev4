@@ -10,7 +10,7 @@ describe('LeadermasterComponent', () => {
     await TestBed.configureTestingModule({
       imports: [LeadermasterComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(LeadermasterComponent);
     component = fixture.componentInstance;

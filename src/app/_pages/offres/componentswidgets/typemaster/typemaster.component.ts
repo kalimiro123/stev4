@@ -4,8 +4,8 @@ import { APP_IMAGES } from '@app/_core/constantes/app-images';
 
 @Component({
   selector: 'app-typemaster',
-  standalone: true,        
-  imports: [CommonModule],  
+  standalone: true,
+  imports: [CommonModule],
   templateUrl: './typemaster.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

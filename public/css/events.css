@@ -3,7 +3,7 @@
     background: #fff;
 }
 
-.bodyEvents .tmi-Talks .circle-label {
+/* .bodyEvents .tmi-Talks .circle-label {
     display: inline-flex;
     align-items: center;
     font-size: 16px;
@@ -21,7 +21,7 @@
 .bodyEvents .tmi-Talks .circle-label i:first-child {
     color: #2ecc71;
 
-}
+} */
 
 .bodyEvents .tmi-Talks .tmi-Talks-label {
     display: inline-flex;
@@ -33,7 +33,7 @@
 }
 
 .bodyEvents .tmi-Talks .tmi-Talks-label i {
-    color: #2ecc71;
+    color: #04740c;
     font-size: 8px;
     margin-right: 8px;
 }
@@ -41,18 +41,17 @@
 .bodyEvents .tmi-Talks .tmi-Talks-content h3 {
     font-size: 24px;
     font-weight: 700;
-    color: #1f2d3d;
+    color: #292929;
     margin-bottom: 18px;
-    line-height: 1.4;
+    line-height: 35px;
 }
 
 .bodyEvents .tmi-Talks .tmi-Talks-content p {
     font-size: 15px;
-    line-height: 1.8;
+    line-height: 30px;
     color: #343434;
     padding-left: 40px;
     position: relative;
-    width: 340px;
 }
 
 .bodyEvents .tmi-Talks .tmi-Talks-content a {
@@ -79,7 +78,7 @@
     content: '';
     width: 3px;
     height: 80%;
-    background: #04740C;
+    background: #04740c;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -122,8 +121,8 @@
 
 /* tmi tabs talks */
 .bodyEvents .tmi-tabs-events .custom-tabs .nav-link {
-    color: #333;
-    font-weight: 500;
+    color: #191919;
+    font-size: 15px;
     padding: 12px 16px;
     margin-right: 10px;
     background: #F9F9F9;
@@ -132,10 +131,13 @@
     display: flex;
     align-items: center;
     gap: 13px;
+    border: none;
+    outline: none;
+    box-shadow: none;
 }
 
 .bodyEvents .tmi-tabs-events .custom-tabs .nav-link.active {
-    background-color: #04740C;
+    background-color: #04740c;
     color: #fff;
 }
 
@@ -144,11 +146,13 @@
 }
 
 .bodyEvents .tmi-tabs-events .section-title {
-    border-left: 3px solid #04740C;
+    border-left: 3px solid #04740c;
     padding-left: 12px;
     margin: 25px 0;
     font-size: 15px;
     color: #343434;
+    width: 100%;
+    line-height: 30px;
     max-width: 600px;
     width: 100%;
 }
@@ -156,7 +160,7 @@
 .bodyEvents .tmi-tabs-events .feature-card {
     background: #fff;
     border-radius: 0;
-    padding: 25px 25px 50px;
+    padding: 25px 25px 80px;
     height: 100%;
     transition: all 0.3s ease;
     border: 1px solid #EEEEEE;
@@ -178,7 +182,7 @@
 }
 
 .bodyEvents .tmi-tabs-events .feature-card:hover {
-    background: #0a7d2c;
+    background: #04740c;
     color: #fff;
 }
 
@@ -232,14 +236,18 @@
 
 .bodyEvents .tmi-tabs-events .stat-card h2 {
     font-weight: 700;
-    color: #343434;
+    color: #04042c;
     margin-bottom: 0;
+    font-size: 38px;
+    line-height: 57px;
 }
 
 .bodyEvents .tmi-tabs-events .stat-card p {
     font-size: 14px;
     color: #343434;
     margin: 0;
+    line-height: 25px;
+    text-align: left;
 }
 
 .bodyEvents .tmi-tabs-events .stat-card a {
@@ -271,7 +279,7 @@
 
 .bodyEvents .filter-box-head .form-select:focus,
 .bodyEvents .filter-box-head .form-control:focus {
-    border-color: #04740C;
+    border-color: #04740c;
     border-width: 2px;
     box-shadow: none;
 }
@@ -347,7 +355,7 @@
 }
 
 .bodyEvents .sidebar-box ul li.active {
-    color: #57A85D;
+    color: #04740c;
     font-weight: 600;
 }
 
@@ -419,7 +427,7 @@
 
 .bodyEvents .talk-content-head select {
     border: none;
-    color: #04740C;
+    color: #04740c;
     font-weight: 600;
 }
 
@@ -473,7 +481,7 @@
 
 .bodyEvents .talk-meta i {
     margin-right: 4px;
-    color: #0a7d2c;
+    color: #04740c;
 }
 
 /* SPEAKER */
@@ -493,7 +501,7 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    border: 3px solid #57A85D;
+    border: 3px solid #04740c;
 }
 
 .bodyEvents .speaker .speaker-info {
@@ -601,8 +609,8 @@
 }
 
 .bodyEvents .sponsor-section .socials a:hover {
-    color: #04740C;
-    border-color: #04740C;
+    color: #04740c;
+    border-color: #04740c;
 }
 
 /* Owl dots */
@@ -624,7 +632,7 @@
 }
 
 .bodyEvents .sponsor-section .owl-dot.active span {
-    background: #04740C !important;
+    background: #04740c !important;
 }
 
 .bodyEvents .loading {

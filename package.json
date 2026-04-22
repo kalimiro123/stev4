@@ -68,6 +68,7 @@
     "@angular/build": "^21.0.5",
     "@angular/cli": "^21.0.5",
     "@angular/compiler-cli": "^21.0.0",
+    "@angular/localize": "^21.0.0",
     "@types/express": "^5.0.1",
     "@types/jquery": "^4.0.0",
     "@types/node": "^20.17.19",

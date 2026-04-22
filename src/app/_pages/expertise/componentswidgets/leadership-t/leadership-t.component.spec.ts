@@ -10,7 +10,7 @@ describe('LeadershipTComponent', () => {
     await TestBed.configureTestingModule({
       imports: [LeadershipTComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(LeadershipTComponent);
     component = fixture.componentInstance;
