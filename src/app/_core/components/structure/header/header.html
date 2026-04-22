@@ -1,0 +1,125 @@
+<div class="top-bar py-3" appHeaderBehavior>
+    <div class="container d-flex justify-content-between align-items-center">
+
+        <!-- LEFT: CONTACT ICONS -->
+        <div class="d-flex align-items-center gap-4">
+
+            <!-- PHONE -->
+            <div class="contact-dropdown">
+                <button class="contact-icon has-arrow" aria-label="Contact">
+                    <i class="fas fa-phone-volume ico"></i>
+                    <i class="fas fa-chevron-down arrow"></i>
+                </button>
+                <div class="contact-box">
+                    <div class="contact-item">
+                        <img src="https://flagcdn.com/ca.svg" alt="">
+                        <span>Office : +1 613 777 63 77</span>
+                    </div>
+                    <div class="contact-item">
+                        <img src="https://flagcdn.com/ma.svg" alt="">
+                        <span>Office : +212 606 940 940</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- WHATSAPP -->
+            <div class="contact-dropdown">
+                <button class="contact-icon has-arrow" aria-label="Contact">
+                    <i class="fab fa-whatsapp ico"></i>
+                    <i class="fas fa-chevron-down arrow"></i>
+                </button>
+
+                <div class="contact-box">
+                    <div class="contact-item">
+                        <img src="https://flagcdn.com/ma.svg" alt="">
+                        <span>WhatsApp : +212 606 940 940</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- EMAIL -->
+            <div class="contact-dropdown">
+                <button class="contact-icon has-arrow">
+                    <i class="fas fa-at ico"></i>
+                    <i class="fas fa-chevron-down arrow"></i>
+                </button>
+
+                <div class="contact-box">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope text-danger"></i>
+                        <span>contact@tmi.ma</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- RIGHT: SOCIAL + LANG -->
+        <div class="d-flex align-items-center gap-4">
+
+            <!-- SOCIAL ICONS -->
+            <div class="social-icons">
+                <a class="instagram"><i class="fab fa-instagram"></i></a>
+                <a class="facebook"><i class="fab fa-facebook-f"></i></a>
+                <a class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                <a class="twitter"><i class="fab fa-x-twitter"></i></a>
+            </div>
+
+            <!-- LANGUAGE -->
+            <div class="dropdown language-dropdown">
+                <a class="dropdown-toggle text-decoration-none text-dark" data-bs-toggle="dropdown">
+                    <img 
+                    [src]="'https://flagcdn.com/' + (currentLanguage === 'en' ? 'gb' : 'fr') + '.svg'" 
+                    width="18" 
+                    [alt]="currentLanguage | uppercase">
+                    {{ currentLanguage | uppercase }}
+                </a>
+                <ul class="dropdown-menu">
+                    <li *ngFor="let lang of languages">
+                        <a class="dropdown-item" (click)="changeLanguage(lang.code)" [class.active]="currentLanguage === lang.code">
+                            <img alt=""
+                            [src]="'https://flagcdn.com/' + lang.flag + '.svg'" width="18" [alt]="lang.name">
+                            {{ lang.name }}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<nav class="navbar navbar-expand-lg navbar-dark main-navbar">
+    <div class="container">
+        <a class="navbar-brand" routerLink="/home">
+            <img [src]="images.logo" class="logo-light" width="150" alt="Logo Light">
+            <img [src]="images.logo2" class="logo-light2" width="150" alt="Logo Light 2">
+            <img [src]="images.logocolor" class="logo-dark" width="120" alt="Logo Dark">
+        </a>
+        <button class="navbar-toggler" type="button" aria-label="Toggle Navigation"
+        data-bs-toggle="collapse" data-bs-target="#mainMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainMenu">
+            <ul class="navbar-nav ms-auto gap-3 align-items-center">
+                <!-- HOME WITH ICON -->
+                <li class="nav-item">
+                    <button class="nav-link active" 
+                    routerLink="/home"
+                    routerLinkActive="active"
+                    [routerLinkActiveOptions]="{ exact: true }"
+                    >
+                        <img [src]="images.home" class="logo-icon" width="22" alt="Home Icon">
+                    </button>
+                </li>
+                @for(m of menusApp;track m;) {
+                    <li class="nav-item">
+                        <button class="nav-link"
+                                [routerLink]="m.route"
+                                routerLinkActive="active">
+                            {{ m.key | translate }}
+                        </button>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</nav>
