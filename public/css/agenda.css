@@ -123,7 +123,7 @@
 
 
 
-.bodyCalendar .testimonial-section {
+.testimonial-section {
   background: #F9FBFE;
 }
 
@@ -172,12 +172,12 @@
 
 } */
 
-.bodyCalendar .testimonial-section .testimonial-carousel {
+.testimonial-section .testimonial-carousel {
   position: relative;
 }
 
-.bodyCalendar .testimonial-section .testimonial-carousel .owl-prev,
-.bodyCalendar .testimonial-section .testimonial-carousel .owl-next{
+.testimonial-section .testimonial-carousel .owl-prev,
+.testimonial-section .testimonial-carousel .owl-next{
   position: absolute;
   top: -50px;
   /* right: 0; */
@@ -195,21 +195,21 @@
   font-size: 12px;
 }
 
-.bodyCalendar .testimonial-section .testimonial-carousel .owl-prev:hover,
-.bodyCalendar .testimonial-section .testimonial-carousel .owl-next:hover {
+.testimonial-section .testimonial-carousel .owl-prev:hover,
+.testimonial-section .testimonial-carousel .owl-next:hover {
   background: #0b7a2a;
   color: #FFFFFF;
 }
 
-.bodyCalendar .testimonial-section .testimonial-carousel .owl-prev{
+.testimonial-section .testimonial-carousel .owl-prev{
   right: 40px;
 }
 
-.bodyCalendar .testimonial-section .testimonial-carousel .owl-next{
+.testimonial-section .testimonial-carousel .owl-next{
   right: 0px;
 }
 
-.bodyCalendar .testimonial-section .testimonial-carousel .testimonial-card {
+.testimonial-section .testimonial-carousel .testimonial-card {
   background: #F2F5F9;
   border-radius: 10px;
   padding: 30px 25px;
@@ -218,35 +218,35 @@
   height: 100%;
 }
 
-.bodyCalendar .testimonial-section .testimonial-carousel .owl-item.center .testimonial-card {
+.testimonial-section .testimonial-carousel .owl-item.center .testimonial-card {
   background: #FFFFFF;
   box-shadow: 10px 25px 30px #0000000D;
 }
 
-.bodyCalendar .testimonial-section .testimonial-card p {
+.testimonial-section .testimonial-card p {
   font-size: 14px;
   color: #6c757d;
   margin: 20px 0;
 }
 
-.bodyCalendar .testimonial-section .testimonial-card a {
+.testimonial-section .testimonial-card a {
   text-decoration: none;
   font-weight: 500;
 }
 
-.bodyCalendar .testimonial-section .profile {
+.testimonial-section .profile {
   display: flex;
   justify-content: center;
 }
 
-.bodyCalendar .testimonial-section .profile img {
+.testimonial-section .profile img {
   width: 80px !important;
   height: 80px;
   border-radius: 50%;
   margin-top: 10px;
 }
 
-.bodyCalendar .testimonial-section .quote-icon {
+.testimonial-section .quote-icon {
   font-size: 24px;
   position: absolute;
   top: 15px;
@@ -254,7 +254,7 @@
   opacity: 0.8;
 }
 
-.bodyCalendar .testimonial-section .name {
+.testimonial-section .name {
   font-weight: 500;
   margin-top: 10px;
   color: #343434;
@@ -262,19 +262,19 @@
   letter-spacing: 0px;
 }
 
-.bodyCalendar .testimonial-section .role {
+.testimonial-section .role {
   font-size: 15px;
   color: #04042C;
   font-weight: 600;
 }
 
-.bodyCalendar .testimonial-section .company {
+.testimonial-section .company {
   color: #0069FF;
   font-size: 13px;
   font-weight: 500;
 }
 
-.bodyCalendar .testimonial-section .linkedin {
+.testimonial-section .linkedin {
   position: absolute;
   top: 15px;
   right: 15px;
@@ -290,13 +290,13 @@
   border: 1px solid #707070;
 }
 
-.bodyCalendar .testimonial-section .testimonial-carousel .owl-item.center .linkedin {
+.testimonial-section .testimonial-carousel .owl-item.center .linkedin {
   color: #0a66c2;
   border-color: #0a66c2;
 }
 
 /* Owl dots */
-.bodyCalendar .testimonial-section .testimonial-carousel .owl-dots {
+.testimonial-section .testimonial-carousel .owl-dots {
   margin-top: 20px;
   justify-content: center;
   align-items: center;
@@ -304,7 +304,7 @@
   gap: 5px;
 }
 
-.bodyCalendar .testimonial-section .testimonial-carousel .owl-dots .owl-dot span {
+.testimonial-section .testimonial-carousel .owl-dots .owl-dot span {
   background: #ECECEC;
   width: 8px;
   height: 8px;
@@ -313,7 +313,7 @@
   border-radius: 50%;
 }
 
-.bodyCalendar .testimonial-section .testimonial-carousel .owl-dots .owl-dot.active span {
+.testimonial-section .testimonial-carousel .owl-dots .owl-dot.active span {
   background: #04740C;
 }
 

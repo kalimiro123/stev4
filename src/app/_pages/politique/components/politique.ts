@@ -8,7 +8,7 @@ import { APP_IMAGES } from '@app/_core/constantes/app-images';
   selector: 'app-politique',
   templateUrl: './politique.html',
   styleUrls: ['./politique.css'],  // ✅ CSS LOCAL
-  encapsulation: ViewEncapsulation.Emulated,  // Par défaut
+  encapsulation: ViewEncapsulation.None,  // Par défaut
   changeDetection: ChangeDetectionStrategy.OnPush,
   standalone: true,
   imports: [
